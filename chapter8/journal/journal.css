@@ -1,7 +1,8 @@
 @font-face {
 	font-family: "Emblema One";
-	src: url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.woff"), 
-	     url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf"); 
+    /*woff tff在ie8之前的浏览器不可用，需要使用EOT文件*/
+	src: url("./EmblemaOne-Regular.woff"),
+	     url("./EmblemaOne-Regular.ttf");
 }
 body {
   font-family:     Verdana, Geneva, Arial, sans-serif;
